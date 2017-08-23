@@ -1,0 +1,820 @@
+
+17 May 17 12:12:25 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:33
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(10): Router->__construct('hello')
+#1 G:\OpenServer\domains\books\Index.php(28): Application->run()
+#2 {main}
+17 May 17 12:12:26 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:33
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(10): Router->__construct('hello')
+#1 G:\OpenServer\domains\books\Index.php(28): Application->run()
+#2 {main}
+17 May 17 12:12:31 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:33
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(10): Router->__construct('hello')
+#1 G:\OpenServer\domains\books\Index.php(28): Application->run()
+#2 {main}
+17 May 17 12:44:45 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('hello')
+#1 G:\OpenServer\domains\books\Controller\Application.php(10): Router->__construct('hello')
+#2 G:\OpenServer\domains\books\Index.php(28): Application->run()
+#3 {main}
+18 May 17 5:40:39 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('dfg')
+#1 G:\OpenServer\domains\books\Controller\Application.php(12): Router->__construct('dfg')
+#2 G:\OpenServer\domains\books\index.php(28): Application->run()
+#3 {main}
+18 May 17 5:44:22 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('dfg')
+#1 G:\OpenServer\domains\books\Controller\Application.php(12): Router->__construct('dfg')
+#2 G:\OpenServer\domains\books\index.php(28): Application->run()
+#3 {main}
+18 May 17 5:44:50 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('dfg')
+#1 G:\OpenServer\domains\books\Controller\Application.php(12): Router->__construct('dfg')
+#2 G:\OpenServer\domains\books\index.php(28): Application->run()
+#3 {main}
+18 May 17 5:46:42 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('dfg')
+#1 G:\OpenServer\domains\books\Controller\Application.php(12): Router->__construct('dfg')
+#2 G:\OpenServer\domains\books\index.php(28): Application->run()
+#3 {main}
+18 May 17 5:47:26 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('dh')
+#1 G:\OpenServer\domains\books\Controller\Application.php(12): Router->__construct('dh')
+#2 G:\OpenServer\domains\books\index.php(28): Application->run()
+#3 {main}
+18 May 17 6:49:29 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('%D0%BF%D0%BE%D0...')
+#1 G:\OpenServer\domains\books\Controller\Application.php(29): Router->__construct('%D0%BF%D0%BE%D0...')
+#2 G:\OpenServer\domains\books\index.php(28): Application->run()
+#3 {main}
+18 May 17 6:49:35 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('hello')
+#1 G:\OpenServer\domains\books\Controller\Application.php(29): Router->__construct('hello')
+#2 G:\OpenServer\domains\books\index.php(28): Application->run()
+#3 {main}
+18 May 17 6:49:49 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('hello')
+#1 G:\OpenServer\domains\books\Controller\Application.php(29): Router->__construct('hello')
+#2 G:\OpenServer\domains\books\index.php(28): Application->run()
+#3 {main}
+19 May 17 9:54:28 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('edit')
+#1 G:\OpenServer\domains\books\Controller\Application.php(29): Router->__construct('edit')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+19 May 17 9:54:31 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('edit')
+#1 G:\OpenServer\domains\books\Controller\Application.php(29): Router->__construct('edit')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+19 May 17 10:22:24 : Exception: Not existing id in G:\OpenServer\domains\books\Controller\Book_Controller.php:112
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(56): Book_Controller->editBookAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+23 May 17 8:59:31 : Exception: Action authorsActionAction in Controller Seed_Controller does not exist in G:\OpenServer\domains\books\Controller\Application.php:51
+Stack trace:
+#0 G:\OpenServer\domains\books\index.php(16): Application->run()
+#1 {main}
+23 May 17 9:00:32 : Exception: Action authorsActionAction in Controller Seed_Controller does not exist in G:\OpenServer\domains\books\Controller\Application.php:51
+Stack trace:
+#0 G:\OpenServer\domains\books\index.php(16): Application->run()
+#1 {main}
+23 May 17 9:01:57 : Exception: Action authorsActionAction in Controller Seed_Controller does not exist in G:\OpenServer\domains\books\Controller\Application.php:51
+Stack trace:
+#0 G:\OpenServer\domains\books\index.php(16): Application->run()
+#1 {main}
+23 May 17 9:02:41 : Exception: Action authorsActionAction in Controller Seed_Controller does not exist in G:\OpenServer\domains\books\Controller\Application.php:50
+Stack trace:
+#0 G:\OpenServer\domains\books\index.php(16): Application->run()
+#1 {main}
+23 May 17 9:02:54 : Exception: Action authorsActionAction in Controller Seed_Controller does not exist in G:\OpenServer\domains\books\Controller\Application.php:50
+Stack trace:
+#0 G:\OpenServer\domains\books\index.php(16): Application->run()
+#1 {main}
+24 May 17 11:07:06 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('books/2%3E2%3C/...')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('books/2%3E2%3C/...')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 11:07:42 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('books/2')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('books/2')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 11:08:15 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('books/2')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('books/2')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 11:08:36 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('2')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('2')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 11:08:45 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('3')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('3')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 11:10:00 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('2')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('2')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 11:10:10 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('2')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('2')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 11:10:41 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('2')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('2')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 11:10:54 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('2')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('2')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 11:11:15 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('2')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('2')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 11:11:42 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('2')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('2')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 11:12:19 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('2')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('2')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 11:12:29 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('2')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('2')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 12:12:04 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('2/?~SORT~')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('2/?~SORT~')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 12:13:11 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('2/?~SORT~')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('2/?~SORT~')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 12:13:18 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('~PAGE~')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('~PAGE~')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 12:26:18 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('2')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('2')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 12:26:49 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('2')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('2')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 12:28:37 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('2')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('2')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 12:29:27 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('2')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('2')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 12:33:46 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:38
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('12')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('12')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 12:33:55 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:38
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('12')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('12')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 12:34:06 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:38
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('12')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('12')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 12:34:17 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:38
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('12')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('12')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 12:34:18 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:38
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('12')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('12')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 12:34:19 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:38
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('10')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('10')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 12:34:19 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:38
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('8')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('8')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 12:34:20 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:38
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('6')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('6')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 12:34:26 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:38
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('2')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('2')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+24 May 17 12:35:12 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:38
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('2')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('2')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+25 May 17 6:15:14 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 6:19:55 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 6:21:09 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 6:21:53 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 6:22:14 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 6:22:19 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 6:22:59 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 6:23:17 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 6:24:28 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 6:24:33 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 6:24:55 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 6:25:24 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:135
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 6:25:36 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 6:25:55 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 6:26:40 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:133
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 6:26:48 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:135
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 6:27:20 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 6:30:10 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 6:51:28 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:39
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+25 May 17 7:01:00 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 7:01:52 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 7:02:11 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 7:02:37 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 7:13:07 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 7:13:47 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 7:14:17 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 7:15:48 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 7:16:13 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 7:16:26 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 7:16:32 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 7:21:01 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 7:21:18 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 7:23:34 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 7:23:35 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 7:23:46 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 7:24:40 : Exception: Incorrect authorId in G:\OpenServer\domains\books\Controller\Book_Controller.php:134
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#1 G:\OpenServer\domains\books\index.php(16): Application->run()
+#2 {main}
+25 May 17 7:32:44 : Exception: This route does not exist in G:\OpenServer\domains\books\functions.php:20
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Book_Controller.php(150): url('index')
+#1 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+25 May 17 7:33:04 : Exception: This route does not exist in G:\OpenServer\domains\books\functions.php:20
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Book_Controller.php(150): url('index')
+#1 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+25 May 17 7:33:53 : Exception: This route does not exist in G:\OpenServer\domains\books\functions.php:20
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Book_Controller.php(147): url('index')
+#1 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+25 May 17 7:33:59 : Exception: This route does not exist in G:\OpenServer\domains\books\functions.php:20
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Book_Controller.php(146): url('index')
+#1 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+25 May 17 7:34:15 : Exception: This route does not exist in G:\OpenServer\domains\books\functions.php:20
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Book_Controller.php(146): url('index')
+#1 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+25 May 17 7:34:22 : Exception: This route does not exist in G:\OpenServer\domains\books\functions.php:20
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Book_Controller.php(146): url('index')
+#1 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+25 May 17 7:34:47 : Exception: This route does not exist in G:\OpenServer\domains\books\functions.php:20
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Book_Controller.php(147): url('index')
+#1 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->editBookSaveAction()
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+25 May 17 7:40:17 : Exception: This route does not exist in G:\OpenServer\domains\books\functions.php:20
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Book_Controller.php(60): url('index')
+#1 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->addBookAction()
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+25 May 17 7:40:23 : Exception: This route does not exist in G:\OpenServer\domains\books\functions.php:20
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Book_Controller.php(60): url('index')
+#1 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->addBookAction()
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+25 May 17 8:00:54 : Exception: This route does not exist in G:\OpenServer\domains\books\functions.php:20
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Book_Controller.php(96): url('index')
+#1 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->deleteBookAction()
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+25 May 17 8:01:03 : Exception: This route does not exist in G:\OpenServer\domains\books\functions.php:20
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Book_Controller.php(96): url('index')
+#1 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->deleteBookAction()
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+25 May 17 8:01:10 : Exception: This route does not exist in G:\OpenServer\domains\books\functions.php:20
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Book_Controller.php(96): url('index')
+#1 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->deleteBookAction()
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+25 May 17 8:01:16 : Exception: This route does not exist in G:\OpenServer\domains\books\functions.php:20
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Book_Controller.php(96): url('index')
+#1 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->deleteBookAction()
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+25 May 17 8:17:26 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:38
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('32566/id')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('32566/id')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+25 May 17 8:18:22 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:38
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(15): Router->parse('32566/id')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('32566/id')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+25 May 17 8:18:39 : Exception: This route does not exist in G:\OpenServer\domains\books\functions.php:20
+Stack trace:
+#0 G:\OpenServer\domains\books\Model\Books.php(46): url('books', Array)
+#1 G:\OpenServer\domains\books\Controller\Book_Controller.php(18): Model_Books->getListPaginator('32566', 'id')
+#2 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->showBooksListAction()
+#3 G:\OpenServer\domains\books\index.php(16): Application->run()
+#4 {main}
+25 May 17 8:24:48 : Exception: This route does not exist in G:\OpenServer\domains\books\Class\Router.php:68
+Stack trace:
+#0 G:\OpenServer\domains\books\Model\Books.php(46): Router::url('books', Array)
+#1 G:\OpenServer\domains\books\Controller\Book_Controller.php(18): Model_Books->getListPaginator('32566', 'id')
+#2 G:\OpenServer\domains\books\Controller\Application.php(54): Book_Controller->showBooksListAction()
+#3 G:\OpenServer\domains\books\index.php(16): Application->run()
+#4 {main}
+25 May 17 13:45:10 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('3/id-desc')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('3/id-desc')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+25 May 17 13:48:12 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('3/id-desc')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('3/id-desc')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+26 May 17 5:37:59 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+26 May 17 5:38:04 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('1')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('1')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+26 May 17 5:38:34 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('1')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('1')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+26 May 17 5:38:41 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('1/id')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('1/id')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+26 May 17 5:40:00 : Exception: This route does not exist in G:\OpenServer\domains\books\Class\Router.php:67
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Authorisation_Controller.php(31): Router::url('index')
+#1 G:\OpenServer\domains\books\Controller\Application.php(54): Authorisation_Controller->signInAction()
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+26 May 17 6:54:49 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+26 May 17 6:55:15 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+26 May 17 6:55:51 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+26 May 17 6:56:23 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+26 May 17 7:09:37 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+26 May 17 7:09:51 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('')
+#1 G:\OpenServer\domains\books\Controller\Application.php(30): Router->__construct('')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+26 May 17 12:49:59 : Exception: URL Parameter missing. in G:\OpenServer\domains\books\Class\Router.php:80
+Stack trace:
+#0 G:\OpenServer\domains\books\view\booksList\booksList.php(8): Router::url(Array, Array)
+#1 G:\OpenServer\domains\books\functions.php(7): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\books\Controller\Book_Controller.php(32): render('G:\\OpenServer\\d...', Array)
+#3 G:\OpenServer\domains\books\Controller\Application.php(55): Book_Controller->showBooksListAction()
+#4 G:\OpenServer\domains\books\index.php(16): Application->run()
+#5 {main}
+26 May 17 12:52:00 : Exception: URL Parameter missing. in G:\OpenServer\domains\books\Class\Router.php:80
+Stack trace:
+#0 G:\OpenServer\domains\books\view\booksList\booksList.php(8): Router::url(Array, Array)
+#1 G:\OpenServer\domains\books\functions.php(7): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\books\Controller\Book_Controller.php(32): render('G:\\OpenServer\\d...', Array)
+#3 G:\OpenServer\domains\books\Controller\Application.php(55): Book_Controller->showBooksListAction()
+#4 G:\OpenServer\domains\books\index.php(16): Application->run()
+#5 {main}
+26 May 17 12:52:09 : Exception: URL Parameter missing. in G:\OpenServer\domains\books\Class\Router.php:80
+Stack trace:
+#0 G:\OpenServer\domains\books\view\booksList\booksList.php(8): Router::url(Array, Array)
+#1 G:\OpenServer\domains\books\functions.php(7): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\books\Controller\Book_Controller.php(32): render('G:\\OpenServer\\d...', Array)
+#3 G:\OpenServer\domains\books\Controller\Application.php(55): Book_Controller->showBooksListAction()
+#4 G:\OpenServer\domains\books\index.php(16): Application->run()
+#5 {main}
+26 May 17 12:52:10 : Exception: URL Parameter missing. in G:\OpenServer\domains\books\Class\Router.php:80
+Stack trace:
+#0 G:\OpenServer\domains\books\view\booksList\booksList.php(8): Router::url(Array, Array)
+#1 G:\OpenServer\domains\books\functions.php(7): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\books\Controller\Book_Controller.php(32): render('G:\\OpenServer\\d...', Array)
+#3 G:\OpenServer\domains\books\Controller\Application.php(55): Book_Controller->showBooksListAction()
+#4 G:\OpenServer\domains\books\index.php(16): Application->run()
+#5 {main}
+26 May 17 12:52:11 : Exception: URL Parameter missing. in G:\OpenServer\domains\books\Class\Router.php:80
+Stack trace:
+#0 G:\OpenServer\domains\books\view\booksList\booksList.php(8): Router::url(Array, Array)
+#1 G:\OpenServer\domains\books\functions.php(7): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\books\Controller\Book_Controller.php(32): render('G:\\OpenServer\\d...', Array)
+#3 G:\OpenServer\domains\books\Controller\Application.php(55): Book_Controller->showBooksListAction()
+#4 G:\OpenServer\domains\books\index.php(16): Application->run()
+#5 {main}
+26 May 17 12:52:13 : Exception: URL Parameter missing. in G:\OpenServer\domains\books\Class\Router.php:80
+Stack trace:
+#0 G:\OpenServer\domains\books\view\booksList\booksList.php(8): Router::url(Array, Array)
+#1 G:\OpenServer\domains\books\functions.php(7): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\books\Controller\Book_Controller.php(32): render('G:\\OpenServer\\d...', Array)
+#3 G:\OpenServer\domains\books\Controller\Application.php(55): Book_Controller->showBooksListAction()
+#4 G:\OpenServer\domains\books\index.php(16): Application->run()
+#5 {main}
+26 May 17 12:52:13 : Exception: URL Parameter missing. in G:\OpenServer\domains\books\Class\Router.php:80
+Stack trace:
+#0 G:\OpenServer\domains\books\view\booksList\booksList.php(8): Router::url(Array, Array)
+#1 G:\OpenServer\domains\books\functions.php(7): include('G:\\OpenServer\\d...')
+#2 G:\OpenServer\domains\books\Controller\Book_Controller.php(32): render('G:\\OpenServer\\d...', Array)
+#3 G:\OpenServer\domains\books\Controller\Application.php(55): Book_Controller->showBooksListAction()
+#4 G:\OpenServer\domains\books\index.php(16): Application->run()
+#5 {main}
+01 Jun 17 10:30:07 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('js/booksList.js')
+#1 G:\OpenServer\domains\books\Controller\Application.php(33): Router->__construct('js/booksList.js')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+01 Jun 17 10:30:07 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('js/booksList.js')
+#1 G:\OpenServer\domains\books\Controller\Application.php(33): Router->__construct('js/booksList.js')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+01 Jun 17 10:30:07 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('js/booksList.js')
+#1 G:\OpenServer\domains\books\Controller\Application.php(33): Router->__construct('js/booksList.js')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+01 Jun 17 10:31:15 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('js/booksList.js')
+#1 G:\OpenServer\domains\books\Controller\Application.php(33): Router->__construct('js/booksList.js')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+01 Jun 17 10:31:15 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('js/booksList.js')
+#1 G:\OpenServer\domains\books\Controller\Application.php(33): Router->__construct('js/booksList.js')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+01 Jun 17 10:31:15 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('js/booksList.js')
+#1 G:\OpenServer\domains\books\Controller\Application.php(33): Router->__construct('js/booksList.js')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+01 Jun 17 10:37:07 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('js/booksList.js')
+#1 G:\OpenServer\domains\books\Controller\Application.php(33): Router->__construct('js/booksList.js')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+01 Jun 17 10:37:07 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('js/booksList.js')
+#1 G:\OpenServer\domains\books\Controller\Application.php(33): Router->__construct('js/booksList.js')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+01 Jun 17 10:37:07 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('js/booksList.js')
+#1 G:\OpenServer\domains\books\Controller\Application.php(33): Router->__construct('js/booksList.js')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+01 Jun 17 10:39:03 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('js/booksList.js')
+#1 G:\OpenServer\domains\books\Controller\Application.php(33): Router->__construct('js/booksList.js')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+01 Jun 17 10:39:03 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('js/booksList.js')
+#1 G:\OpenServer\domains\books\Controller\Application.php(33): Router->__construct('js/booksList.js')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+01 Jun 17 10:39:03 : Exception: 404 Not Found in G:\OpenServer\domains\books\Class\Router.php:37
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('js/booksList.js')
+#1 G:\OpenServer\domains\books\Controller\Application.php(33): Router->__construct('js/booksList.js')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+02 Jun 17 9:35:28 : Exception: This route does not exist in G:\OpenServer\domains\books\Class\Router.php:67
+Stack trace:
+#0 G:\OpenServer\domains\books\Controller\Authorisation_Controller.php(18): Router::url('index')
+#1 G:\OpenServer\domains\books\Controller\Application.php(58): Authorisation_Controller->signInAction()
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+05 Jun 17 11:35:11 : exception 'Exception' with message '404 Not Found' in G:\OpenServer\domains\books\Class\Router.php:36
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('ajax/book-edit')
+#1 G:\OpenServer\domains\books\Controller\Application.php(29): Router->__construct('ajax/book-edit')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+05 Jun 17 11:35:52 : exception 'Exception' with message '404 Not Found' in G:\OpenServer\domains\books\Class\Router.php:36
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('ajax/book-edit')
+#1 G:\OpenServer\domains\books\Controller\Application.php(29): Router->__construct('ajax/book-edit')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+07 Jun 17 6:05:25 : exception 'Exception' with message '404 Not Found' in G:\OpenServer\domains\books\Class\Router.php:36
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('?XDEBUG_SESSION...')
+#1 G:\OpenServer\domains\books\Controller\Application.php(29): Router->__construct('?XDEBUG_SESSION...')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+07 Jun 17 6:05:49 : exception 'Exception' with message '404 Not Found' in G:\OpenServer\domains\books\Class\Router.php:36
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('?XDEBUG_SESSION...')
+#1 G:\OpenServer\domains\books\Controller\Application.php(29): Router->__construct('?XDEBUG_SESSION...')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+07 Jun 17 6:09:15 : exception 'Exception' with message '404 Not Found' in G:\OpenServer\domains\books\Class\Router.php:36
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('?XDEBUG_SESSION...')
+#1 G:\OpenServer\domains\books\Controller\Application.php(29): Router->__construct('?XDEBUG_SESSION...')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}
+07 Jun 17 6:09:45 : exception 'Exception' with message '404 Not Found' in G:\OpenServer\domains\books\Class\Router.php:36
+Stack trace:
+#0 G:\OpenServer\domains\books\Class\Router.php(14): Router->parse('?XDEBUG_SESSION...')
+#1 G:\OpenServer\domains\books\Controller\Application.php(29): Router->__construct('?XDEBUG_SESSION...')
+#2 G:\OpenServer\domains\books\index.php(16): Application->run()
+#3 {main}

@@ -1,0 +1,92 @@
+.books-block {
+    #background-color: aliceblue;
+    width: 250px;
+}
+.books-block table {
+    width: 100%;
+}
+.books-block > table tr {
+    #background-color: aqua;
+    border-bottom: solid 1px;
+}
+.grey {
+	background-color: grey;
+
+}
+
+#add-btn {
+	margin: 20px 0 20px 0;
+	display: block;
+}
+.editor {
+    min-width: 32px;
+    width: 100%;
+}
+.error {
+	color: red;
+    margin-left: 12px;
+}
+.execution-time {
+    clear: right;
+    padding: 4px;
+    margin-top: 30px;
+    float: right;
+    color: white;
+    background-color: darkred;
+}
+.main-container {
+	border: solid 1px;
+	border-top-right-radius: 5px;
+	width: 1000px;
+	#background-color: cornsilk;
+	padding: 10px;
+	margin: auto;
+    overflow: hidden;
+}
+.main-column {
+	#float: left;
+	width: 730px;
+	margin: 0 20px 0 0;
+	display: inline-block;
+}
+.paginator {
+    float: right;
+}
+.paginator a {
+    margin-left: 5px;
+}
+
+.right-column {
+	padding-top: 20px;
+
+	#width: 250px;
+    float: right;
+	display: inline-block;
+}
+.table-header td {
+    border-top: solid 1px;
+    border-left: solid 1px;
+}
+.table-header a {
+    #background-color: aquamarine;
+    text-decoration: none;
+    border-right: none;
+}
+.table-header td:last-child {
+    border-right: solid 1px;
+}
+
+table {
+    border-collapse: collapse;
+}
+td {
+    padding-right: 20px;
+}
+#timer {
+    float: right;
+    width: 320px;
+    margin-right: 20px;
+}
+.bookFormError {
+    border: solid 1px red;
+}
